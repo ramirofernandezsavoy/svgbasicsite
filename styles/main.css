@@ -1,4 +1,8 @@
-
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
 
 .mapBox {
     display: flex;
@@ -24,12 +28,3 @@
     }
 }
 
-.cellphone {    
-    max-width: 35%;
-}
-
-body::before {
-    display: block;
-    content: "";
-    height: 60px;
-}

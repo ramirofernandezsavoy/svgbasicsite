@@ -1,12 +1,4 @@
-body::before {
-    display: block;
-    content: "";
-    height: 60px;
-}
 
-.cellphone {    
-    max-width: 35%;
-}
 
 .mapBox {
     display: flex;
@@ -30,4 +22,14 @@ body::before {
     #infoUl {
         font-size: 12px;
     }
+}
+
+.cellphone {    
+    max-width: 35%;
+}
+
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
 }
